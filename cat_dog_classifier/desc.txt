@@ -1,0 +1,12 @@
+
+
+def forward(self, x):: Define the forward method for the neural network, which specifies how input data passes through the network.
+
+return self.resnet(x): Return the output of the ResNet-18 model after processing the input data.
+
+
+
+
+print(f'Accuracy on the evaluation set: {100 * correct / total:.2f}%'): Print the accuracy on the evaluation set.
+
+train_model(model, criterion, optimizer, num_epochs=2): Train the model for 2 epochs.
